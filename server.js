@@ -6,7 +6,7 @@ const shortUrl = require('./models/shortUrl')
 const app = express()
 
 //Mongo db connection
-mongoose.connect('mongodb+srv://aryangarg1310:aryangarg@cluster0.mgeu6gl.mongodb.net/', {
+mongoose.connect('mongodb+srv://<password>:aryangarg@cluster0.mgeu6gl.mongodb.net/', {
     useNewUrlParser: true, useUnifiedTopology: true
 })
 
